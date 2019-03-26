@@ -1,0 +1,21 @@
+.Slider {
+  white-space: nowrap;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.Card-container {
+  display: inline-block;
+  width: 90%;
+  height: 200px;
+  margin-right: 5px;
+  background-color: #f54;
+}
+
+.Card-container:last-child {
+  margin-right: 0;
+}
+
+.App ::-webkit-scrollbar {
+  width: 0;
+}
